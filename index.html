@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open in Browser - Photoshop Offer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      color: #111;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 400px;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    p {
+      margin: 10px 0 20px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 14px 22px;
+      font-size: 1rem;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    a.button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>⚡ Get Photoshop Here</h1>
+    <p>
+      For the deal to track properly, please <strong>open this page in Safari/Chrome</strong>.  
+      Then tap the button below:
+    </p>
+    <a 
+      href="https://prf.hn/l/20Bd3Lj" 
+      class="button" 
+      target="_blank" 
+      rel="noopener noreferrer">
+      👉 Open Photoshop Offer
+    </a>
+  </div>
+
+  <script>
+    // Attempt to auto-open the affiliate link in the system browser
+    // Works better on Android than iOS
+    window.onload = function() {
+      const url = "YOUR_PARTNERIZE_LINK_HERE";
+      setTimeout(() => {
+        window.open(url, "_blank");
+      }, 1500);
+    };
+  </script>
+</body>
+</html>
